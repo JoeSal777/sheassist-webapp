@@ -1,0 +1,17 @@
+@import "./styles/_fonts.scss";
+
+.unorderedlist_area{
+    background: transparent;
+    margin-top: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center; centers the whole section vertically
+    opacity: 90%;
+
+    .listbox{
+        font-size: 1rem;
+        list-style: square;
+        line-height: 1rem;
+    }
+}

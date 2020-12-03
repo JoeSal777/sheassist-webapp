@@ -1,0 +1,33 @@
+@import "./styles/_fonts.scss";
+
+.centeredTitle_area{
+    background: transparent;
+    margin-top: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; centers the whole section vertically
+
+    .centeredtitle_pretitle{
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        opacity: 80%;
+        text-align: center;
+    }
+    .centeredtitle_title{
+        font-size: 2.3rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    .centeredtitle_subtitle{
+        font-size: 1.2rem;
+        text-align: center;
+        text-transform: capitalize;
+        opacity: 80%;
+    }
+    .centeredtitle_text{
+        padding-top: 0px;
+        font-size: 1rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,9 @@
+.floatingbuttons_area{
+    background: transparent;
+    margin: auto;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;  //wraps the section to fit predefined width
+    justify-content: center;  //centers the contents of the items
+}

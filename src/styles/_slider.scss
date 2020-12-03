@@ -1,0 +1,38 @@
+.slider{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    align-items: center;
+
+    .slide{
+        width: 25%;
+        
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .slide{
+        min-width: 100% !important;
+        
+    }
+}
+
+
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .slide{
+        min-width: 25%;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .slider{
+        height: 14rem;
+    }
+
+    .slide{
+        min-width: 25%;
+        height: 14rem;
+    }
+}

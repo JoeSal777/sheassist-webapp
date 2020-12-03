@@ -1,0 +1,29 @@
+@import "./styles/_fonts.scss";
+
+.hero_area{
+    background: transparent;
+    margin-top: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center; centers the whole section vertically
+
+    .hero_protitle{
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        opacity: 80%;
+        font-weight: 700px !important;
+    }
+    .hero_title{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .hero_subtitle{
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        opacity: 80%;
+    }
+    .hero_text{
+        padding-top: 20px;
+    }
+}

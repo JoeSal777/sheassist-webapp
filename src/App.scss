@@ -1,0 +1,91 @@
+/* This allows us to set our elements as variables */
+:root{
+  --primaryColor:#000000;
+  --secondaryColor:#cdc3ff;
+  --primaryBackgroud: #ffffff;
+  --accentColor: red;
+  --lightAccentColor: rgb(255, 49, 49);
+  --secondaryAccentColor: #990000;
+  --secondaryLightAccentColor: #252525;
+  --primaryTextColor: hsl(0, 0%, 13%);
+  --mainLight:#f3f3f3;
+  --mainDark:#19202A;
+  --primaryFont: 'Raleway', sans-serif;
+  --SecondaryFont: 'Amiri', serif;
+}
+
+
+@import "./styles/_fonts.scss";
+@import "./styles/_contact.scss";
+@import "./styles/_effects.scss";
+@import "./styles/_navbar.scss";
+@import "./styles/_landingpage.scss";
+@import "./styles/_colorstrip.scss";
+@import "./styles/_hero.scss";
+@import "./styles/_button.scss";
+@import "./styles/_buttondesigner.scss";
+@import "./styles/_spacer.scss";
+@import "./styles/_aboutus.scss";
+@import "./styles/_textbox.scss";
+@import "./styles/_unorderedlist.scss";
+@import "./styles/_card.scss";
+@import "./styles/_centeredtitle.scss";
+@import "./styles/_slider.scss";
+@import "./styles/_floatingbuttons.scss";
+@import "./styles/_doublecolumnpictureright.scss";
+@import "./styles/_doublecolumnpictureleft.scss";
+@import "./styles/_doublecolumnimagerightlist.scss";
+@import "./styles/_doublecolumnimageleftlist.scss";
+
+
+/* Since bootstrap has been employed, we have to use !important */
+/* to overide the default settings from bootstrap to 'body' */
+body{
+  font-family: var(--primaryFont) !important;
+  background: transparent;
+  color: var(--primaryColor) !important;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  overflow: auto;
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* No need to use !important here because .text-title is a self created class */
+/* and hasn't any presets from bootstrap the needs overiding*/
+/* Oswald and Permanent Marker were imported from google font hence in parenthesis */
+
+
+.text-subtitle{
+  font-family: var(--primaryColor) !important;
+  text-transform: capitalize;
+}
+
+
+.text-accent{
+  color: var(--accentColor);
+}
+
+.text-bright{
+  color: var(--lightAccentColor);
+}
+
+
+/* Landing Page*/
+.contactPage_main_area{
+  background: var(--primaryBackground);  /* fallback for old browsers */
+  top: 0;
+  left: 0;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  position: relative;
+}
+
+

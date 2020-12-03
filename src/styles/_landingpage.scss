@@ -1,0 +1,50 @@
+@import "./styles/_fonts.scss";
+
+.landingpage{
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: var(--secondaryColor);
+    background: transparent !important;
+    height: auto !important;
+    .landingpage-row{
+        margin-top: 0px;
+    }
+    .landingpage-column{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        
+    }
+    .landingpage-left-column{
+        display: flex;
+    }
+    .landingpage-right-column{
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .landingpage-row{
+      margin-left: 2% !important;
+      margin-right: 2% !important;
+
+      .landingpage-column{
+            float: left;
+            padding: 2rem !important;
+        }
+        .landingpage-left-column{
+            width: 60% !important;
+        }
+        .landingpage-right-column{
+            width: 40% !important;
+            padding-top: 7% !important;
+
+            .hero_one_landingpage{
+                max-width: 350px;
+            }
+        }
+    }  
+  }

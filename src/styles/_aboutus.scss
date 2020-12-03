@@ -1,0 +1,122 @@
+@import "./styles/_fonts.scss";
+
+.aboutUs_main_area{
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 !important;
+    background: transparent !important;
+    height: auto !important;
+    .aboutus_section1_wrapper{
+        background-color: rgb(248, 250, 255);
+    }
+    .aboutus_section1{
+        margin: auto !important;
+        max-width: 1200px;
+        align-content: center;
+        padding-top: 30px;
+
+        .aboutus_section1_centeredtitle{
+            width: 100% !important;
+        }
+    }
+
+    .card-img-top{
+        box-shadow: 0px 0px 3px 1px #CCC !important;
+    }
+   
+}
+
+.aboutus_section2_wrapper{
+    margin: auto !important;
+
+    .aboutus_section2{
+        margin: auto !important;
+        max-width: 1000px;
+        align-content: center;
+    }
+}
+
+
+.aboutus_section3{
+    margin: auto !important;
+    max-width: 1000px;
+    align-content: center;
+
+    .aboutus_carousel{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    //section 1
+        
+        .aboutus_section1{
+            .aboutus_section_carouselslider_area{
+                margin-top: 20px;
+            }
+        }
+    
+}
+
+
+@media screen and (min-width: 768px) {
+    .aboutus_section1{
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+        margin-bottom: 4rem;
+        padding-top: 70px !important;
+        padding-bottom: 30px !important;
+
+        .aboutus_section1_centeredtitle{
+            padding-top: 20px;
+        }
+        .aboutus_section_carouselslider_area{
+            padding-top: 1rem;
+            padding-bottom: 1rem;        
+        }
+        .aboutus_section_carouselslider{
+            border: 0;  
+            border-radius: 10px;  
+            overflow: hidden;    
+        }
+        .aboutus_section1_floatingbuttons{
+            max-width: 1000px;
+            margin: auto;
+            display: flex;  //allows justify content below to work
+            justify-content: center; //centers items within the class
+        }
+    } 
+    
+    .aboutus_section2{
+        padding-top: 80px;
+        padding-bottom: 50px;
+
+        .aboutus_section2_centeredtitle{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .aboutus_section2_doublecolumnpictureright{
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        .aboutus_section2_doublecolumnpictureleft{
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .aboutus_section3{
+        padding-top: 5rem;
+    
+        .aboutus_section3_centeredtitle{
+            width: 100% !important;
+        }
+        .aboutus_carousel{
+            padding-top: 1rem;
+            width: 100% !important;
+        }
+    }
+  }

@@ -1,0 +1,32 @@
+.card_area{
+    background: transparent;
+    margin: 20px;
+    height: auto;
+    text-align: center !important;
+
+    .card_imgSrc{
+        border-radius: 100%;
+        max-width: 220px;
+        max-height: 250px;
+        box-shadow: 0px 0px 3px 1px #CCC;
+    }
+    .card-info{
+        margin-top: 10px;
+        min-height: 100px;
+
+        .card_Name{
+            font-size: 20px;
+            margin: 0px;
+        }
+        .card_subTitle{
+            font-size: 16px;
+            margin: 0px;
+            opacity: 80%;
+        }
+        .card_Link{
+            font-size: 16px;
+            margin: 0px;
+        }
+    }
+    
+}

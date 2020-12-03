@@ -1,0 +1,16 @@
+@import "./styles/_fonts.scss";
+
+.textbox_area{
+    background: transparent;
+    margin-top: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center; centers the whole section vertically
+    opacity: 90%;
+
+    .textbox{
+        padding-top: 10px;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,70 @@
+.doublecolumnpictureleft{
+    width: 100%;
+    background: transparent;
+    .doublecolumnpictureleft-row{
+        margin-top: 0px;
+    }
+    .doublecolumnpictureleft-column{
+        margin: 0;
+        padding: 0;
+        width: 100%;    
+    }
+    .doublecolumnpictureleft-left-column{
+        display: flex;
+    }
+    .doublecolumnpictureleft-right-column{
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+      .doublecolumnpictureleft-column{
+            float: left;
+        }
+        .doublecolumnpictureleft-left-column{
+            width: 60% !important;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            
+
+
+        }
+        .doublecolumnpictureleft-right-column{
+            width: 40% !important;
+
+            .doublecolumnpictureleft_text_area{
+                padding: 20px;
+                display: flex;
+                align-items: center;  //truely vertically items within a div, first flex has to be set tho
+                
+                .doublecolumnpictureleft_pretitle{
+                    font-size: 1.2rem;
+                    text-transform: capitalize;
+                    font-weight: 700;
+                    opacity: 80%;
+                    line-height: 0px;
+                }
+                .doublecolumnpictureleft_title{
+                    font-size: 2rem;
+                    font-weight: 700;
+                }
+                .doublecolumnpictureleft_subtitle{
+                    font-size: 1.2rem;
+                    text-transform: capitalize;
+                    opacity: 80%;
+                }
+                .doublecolumnpictureleft_text{
+                    padding-top: 0px;
+                    font-size: 1rem;
+                }
+            }
+    
+        }
+      
+  }
