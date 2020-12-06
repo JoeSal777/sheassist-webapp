@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from '../logo.jpg';
 import {FaAlignRight} from "react-icons/fa";
-import {AiOutlineFacebook} from "react-icons/ai";
-import {AiOutlineInstagram} from "react-icons/ai";
-import {AiOutlineLinkedin} from "react-icons/ai";
+// import {AiOutlineFacebook} from "react-icons/ai";
+// import {AiOutlineInstagram} from "react-icons/ai";
+// import {AiOutlineLinkedin} from "react-icons/ai";
 
 import {Link} from "react-router-dom"; 
 
