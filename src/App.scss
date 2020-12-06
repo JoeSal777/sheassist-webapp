@@ -17,26 +17,6 @@
 
 
 @import "./styles/_fonts.scss";
-@import "./styles/_contact.scss";
-@import "./styles/_effects.scss";
-//@import "./styles/_navbar.scss";
-@import "./styles/_landingpage.scss";
-@import "./styles/_colorstrip.scss";
-@import "./styles/_hero.scss";
-@import "./styles/_button.scss";
-@import "./styles/_buttondesigner.scss";
-@import "./styles/_spacer.scss";
-@import "./styles/_aboutus.scss";
-@import "./styles/_textbox.scss";
-@import "./styles/_unorderedlist.scss";
-@import "./styles/_card.scss";
-@import "./styles/_centeredtitle.scss";
-@import "./styles/_slider.scss";
-@import "./styles/_floatingbuttons.scss";
-@import "./styles/_doublecolumnpictureright.scss";
-@import "./styles/_doublecolumnpictureleft.scss";
-@import "./styles/_doublecolumnimagerightlist.scss";
-@import "./styles/_doublecolumnimageleftlist.scss";
 
 
 /* Since bootstrap has been employed, we have to use !important */
@@ -236,3 +216,26 @@ button:focus {
   }
 }
 /*END OF NAVBAR*/
+
+
+
+@import "./styles/_contact.scss";
+@import "./styles/_effects.scss";
+@import "./styles/_navbar.scss";
+@import "./styles/_landingpage.scss";
+@import "./styles/_colorstrip.scss";
+@import "./styles/_hero.scss";
+@import "./styles/_button.scss";
+@import "./styles/_buttondesigner.scss";
+@import "./styles/_spacer.scss";
+@import "./styles/_aboutus.scss";
+@import "./styles/_textbox.scss";
+@import "./styles/_unorderedlist.scss";
+@import "./styles/_card.scss";
+@import "./styles/_centeredtitle.scss";
+@import "./styles/_slider.scss";
+@import "./styles/_floatingbuttons.scss";
+@import "./styles/_doublecolumnpictureright.scss";
+@import "./styles/_doublecolumnpictureleft.scss";
+@import "./styles/_doublecolumnimagerightlist.scss";
+@import "./styles/_doublecolumnimageleftlist.scss";
