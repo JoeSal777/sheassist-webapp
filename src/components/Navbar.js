@@ -54,17 +54,17 @@ class Navbar extends Component {
 
                     {/* For contact me icon in nav-bar */}
                     <div className="nav-icons-big-screen">
-                        <a href="#" className="nav-btn-big-screen">
+                        <a href="https://web.facebook.com/" className="nav-btn-big-screen">
                             <button type="button">
                                 <i className="fas fa-cart-plus" />   
                             </button>
                         </a>
-                        <a href="#" className="nav-btn-big-screen">
+                        <a href="https://web.facebook.com/" className="nav-btn-big-screen">
                             <button type="button">
                                 <i className="fas fa-cart-plus" />    
                             </button>
                         </a>
-                        <a href="#" className="nav-btn-big-screen">
+                        <a href="https://web.facebook.com/" className="nav-btn-big-screen">
                             <button type="button Nav-icon">
                                 <i className="fas fa-cart-plus" />   
                             </button>
